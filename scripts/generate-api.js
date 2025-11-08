@@ -5,6 +5,7 @@ const matter = require('gray-matter');
 const CONTENT_DIR = path.join(__dirname, '../content/notes');
 const OUTPUT_DIR = path.join(__dirname, '../public/api/notes');
 const FILES_JSON = path.join(__dirname, '../public/api/files.json');
+const NOTES_JSON = path.join(__dirname, '../public/api/notes.json');
 const METADATA_JSON = path.join(__dirname, '../public/api/metadata.json');
 
 // Ensure output directory exists
@@ -99,6 +100,10 @@ const notes = files.map(file => {
 // Write files.json
 fs.writeFileSync(FILES_JSON, JSON.stringify({ notes }, null, 2));
 
+// Write notes.json (simplified array of URLs only)
+const noteUrls = notes.map(note => note.url);
+fs.writeFileSync(NOTES_JSON, JSON.stringify(noteUrls, null, 2));
+
 // Update lastUpdated in metadata.json
 if (fs.existsSync(METADATA_JSON)) {
   try {
@@ -110,6 +115,6 @@ if (fs.existsSync(METADATA_JSON)) {
   }
 }
 
-console.log(`✅ Generated files.json with ${notes.length} notes`);
+console.log(`✅ Generated files.json and notes.json with ${notes.length} notes`);
 console.log(`   Base URL: ${baseUrl}`);
 
