@@ -1,0 +1,89 @@
+---
+title: "Curiosidad y Obsesión"
+tagline: "Donde la Curiosidad se Encuentra con la Obsesión"
+date: "2025-04-09"
+description: "Los dos ingredientes secretos que nos motivaron en el primer Release Before Ready en Guadalajara. Descubre cómo estos elementos complementarios transformaron un hackathon de 12 horas en un espacio de innovación donde asistentes dando sus primeros pasos y veteranos creando productos digitales colaboraron codo a codo. Desde asistentes de contabilidad impulsados por IA hasta juegos desarrollados por niños que van más allá de las restricciones escolares, estas historias revelan cómo la chispa inicial se convierte en creaciones tangibles cuando se cultiva en el ambiente adecuado. Un vistazo íntimo a las fuerzas que están moldeando el vibrante ecosistema de startups en México y que seguirán impulsando la próxima generación de innovadores digitales."
+author: "Daniel Zavala"
+image: "/content/u7181439476_Multiple_exposure_montage_of_a_female_cyberpunk-s_3773a2e8-0cfe-407b-b2eb-ab6e5f1f63b2_2.png"
+---
+
+El sábado pasado celebramos el primer Release Before Ready en Guadalajara. Fue un fin de semana intenso que comenzó con conversaciones sobre Venture Capital entre Santiago y José Vielma en BBVA Spark, continuó con el hackathon del sábado, y culminó con un desayuno entre organizadores. La combinación resultó perfecta: teoría sobre la creación de unicornios por un lado, y la práctica tangible de desarrollo digital por el otro.
+
+Durante nuestro viaje de regreso a CDMX, mientras analizamos qué hizo que este evento nos llenara de tanta energía creativa, dos palabras resonaban constantemente: ***Curiosidad y Obsesión***. Estos conceptos, dos caras de la misma moneda, encarnan perfectamente el valor de Craft que defendemos en nuestro manifiesto.
+
+La curiosidad se manifestó desde el primer momento, cuando los participantes presentaron sus ideas en 30 segundos aquella mañana. Vimos ese brillo en sus ojos, esa exploración inicial que pregunta "¿qué pasaría si...?" ante territorios desconocidos o herramientas nunca utilizadas.
+
+Luego llegó la obsesión. Observamos cómo esa chispa inicial se transformaba en algo tangible durante las horas de trabajo, ese estado de flujo donde el tiempo se desvanece mientras alguien perfecciona un detalle que quizás nadie más notará. Los participantes no se limitaban a "hacer cosas"; creaban con intención, con meticulosidad, y con un estándar personal que supera cualquier expectativa para un evento de 12 horas.
+
+Es precisamente en esta intersección donde el craft cobra vida: cuando la curiosidad descubre nuevos territorios y la obsesión los transforma en algo real, tangible y significativo.
+
+## **Curiosidad**
+
+La curiosidad fue el motor que impulsó el evento desde su inicio. Tanto quienes daban sus primeros pasos en un hackathon como quienes llevan años explorando tecnologías emergentes compartían el mismo brillo en los ojos. Días antes, todos los asistentes intercambiamos las ideas sobre los proyectos que soñamos construir y las razones que encendían su pasión. Entre tantos momentos inspiradores, tres ejemplos de participantes primerizos se me quedaron marcados.
+
+## **La historia de Ileana: Cuando la idea encuentra su equipo**
+
+Ileana llegó a su primer hackathon sin experiencia en desarrollo pero con una visión clara: crear un asistente de contabilidad. Días antes, compartió su idea en WhatsApp donde Hermes la animó a participar. Esta validación fue crucial para vencer sus dudas iniciales y el miedo natural de asistir a un evento como RbR por primera vez.
+
+Durante el evento, su curiosidad la impulsó a absorber conceptos técnicos rápidamente mientras guiaba a su equipo con determinación. Al final del día, presentaron un demo funcional: un chat capaz de cargar y analizar archivos contables. Lo que comenzó como una idea abstracta se había transformado en un primer paso tangible.
+
+El domingo, Ileana compartió su experiencia en el canal de WhatsApp del evento con palabras que nos conmovieron profundamente:
+
+<div className="flex flex-col md:flex-row gap-4">
+  <img src="/content/Ileana-1.png" alt="Ileana's message 1" className="object-contain h-auto" style={{ maxWidth: '50%' }} />
+  <img src="/content/Ileana-2.png" alt="Ileana's message 2" className="object-contain h-auto" style={{ maxWidth: '50%' }} />
+</div>
+
+Cuando Ileana compartió estas palabras, Santiago y yo nos llenamos de gratitud hacia todos los asistentes que hicieron posible esta transformación. Su historia encarna perfectamente con los valores de RbR y como se puede convertir una idea en algo mucho más grande que un simple producto—en el comienzo de un viaje.
+
+### **La historia de Giovan: La curiosidad no tiene edad**
+
+A sus 12 años, Giovan llegó al hackathon con una simple pregunta: "¿Podré crear mi propio juego para poder jugar en la escuela sin que lo bloqueen?". Casi sin experiencia en programación, pero con un papá inmerso en el mundo tech desde hace tiempo, abordó el desafío armado únicamente con su curiosidad y una metodología intuitiva: preguntar a ChatGPT y a otros asistentes, experimentar con las respuestas y construir paso a paso.
+
+La mañana avanzó con buen progreso mientras creaba el juego en un Jupyter Notebook, aunque después el proyecto se complicó cuando intentó implementarlo en un servidor. En algún momento, Santiago me preguntó si sabía cómo convertir ese juego en algo multijugador, y terminé programando junto a Giovan durante la última hora y media del evento. Juntos logramos montar un servidor con Flask y compartirlo mediante ngrok, aunque todavía quedó pendiente implementar Pusher para tener jugadores en múltiples dispositivos.
+
+Observarlo era presenciar el aprendizaje autodirigido en su forma más pura. Al finalizar, Giovan no solo había creado un juego funcional, sino que presentó su demo con tanta emoción que contagió a todos los asistentes. Su historia nos recordó que la curiosidad genuina no conoce límites de edad ni de experiencia, solo necesita el espacio adecuado para florecer.
+
+Verlo me transportó a mis inicios y los de Santiago hace muchos años, cuando compartimos esa misma chispa. Será fascinante ver qué logrará crear en los próximos meses y cómo reaccionaron sus maestros cuando regrese a clases con esta nueva experiencia bajo el brazo.
+
+![][image1]
+
+## **La historia de Fabricio: Puentes entre mundos**
+
+Fabricio, empresario del campo, llevaba tiempo intentando incorporar tecnología a su empresa agrícola. Esta inquietud lo conectó con Santiago, quien despertó su interés sobre el potencial de la IA y lo que podría crearse en un solo día de trabajo colaborativo.
+
+Con apenas un día de anticipación, decidió asistir al hackathon, llegando incluso con frutas de su propia cosecha como símbolo de generosidad. Durante el evento, recorrió las mesas con curiosidad insaciable, absorbiendo conceptos de automatización y análisis de datos que podría aplicar directamente en su negocio.
+
+Lo verdaderamente valioso no era solo su hambre de conocimiento, sino cómo su perspectiva única enriquecía cada conversación. Fabricio planteaba problemas reales del sector agrícola que desafiaban las soluciones tecnológicas convencionales, obligando a todos a repensar sus enfoques. Su historia nos recuerda que la innovación más poderosa ocurre precisamente en estas intersecciones inesperadas, cuando mundos aparentemente distantes como la agricultura y la tecnología de vanguardia encuentran puntos de contacto.
+
+## **Obsesión: El Combustible del Largo Plazo**
+
+El tema de la obsesión es más complicado de observar. Ocurre en momentos íntimos cuando cada quien está inmerso en su computadora y suele requerir años de concentración sostenida para hacerse notar. Es algo que habita en nosotros silenciosamente durante mucho tiempo antes de dar frutos visibles.
+
+### **La historia persistente de Isaac**
+
+Cuando comenzó el evento, Isaac de [Flexoffices](https://flexoffices.mx/en/oficinas-flexibles-english/) compartió su trayectoria: después de trabajar en Wayra y detectar la necesidad de los emprendedores por espacios de trabajo adecuados, inició CowDF. Su pasión por fortalecer el ecosistema ha sobrevivido a un terremoto y una pandemia. Hoy está construyendo Flexo a una escala mucho mayor, expandiéndose a Guadalajara y saliendo constantemente de su zona de confort. Su historia es testimonio de esa obsesión silenciosa pero persistente que transforma las dificultades en escalones.
+
+### **Reencuentros con significado**
+
+Fue extraordinario reconectar con amigos que llevan creando desde hace más de una década. Intercambiar aprendizajes sobre lo vivido en los últimos 10 o 15 años resultó invaluable: Chubas, quien asistió al primer SHDH que organizamos en el DF en 2008; Ruy, a quien conocimos en un Campus Party cuando todavía se celebraban en CDMX; y Manuel Torres, asistente frecuente a Hackers and Founders. Con ellos cultivé una sólida amistad durante mi etapa en Guadalajara entre 2011 y 2013\. Incluso Hermes me recordó que había tomado un curso que impartí en Mejorando.la (ahora Platzi) en 2013.
+
+### **La comunidad como continuidad**
+
+Varios participantes que nos han acompañado en múltiples eventos en CDMX asistieron a esta edición, ayudándonos a replicar la energía y carácter de encuentros anteriores. Algunos presentaron proyectos construidos sobre lo aprendido en eventos pasados. En este evento tuvimos un poco de foco en Model context protocols con proyectos como el mío, el de Wallavi y el de Terapify, de los cuales compartiré más detalles en un futuro blog post.
+
+En todos estos casos hay años acumulados de crear productos digitales: algunos como fundadores, otros como desarrolladores, e incluso desde el gobierno impulsando proyectos de innovación, como hizo Ruy en algún momento. Día a día, mes a mes, han ido colocando granitos de arena para construir el vibrante ecosistema de startups que hoy existe en México.
+
+Espero que sigamos alimentando estos casos donde la obsesión se manifiesta en compromiso de largo plazo, para que en los próximos años este ecosistema crezca exponencialmente. Porque si algo nos ha enseñado la historia de la innovación es que las grandes transformaciones no ocurren de la noche a la mañana—son el resultado de obsesiones cultivadas pacientemente durante años.
+
+## **La Receta Secreta**
+
+Aquel sábado en Guadalajara se concentraron décadas de experiencia en creación de productos digitales. Lo que más extraje de este evento fue comprender cómo la curiosidad y la obsesión funcionan como ingredientes esenciales de esa energía creadora que define a *Release Before Ready*. Son fuerzas complementarias: la curiosidad nos abre puertas hacia territorios inexplorados, mientras que la obsesión nos da la persistencia para transformar esas exploraciones en creaciones significativas y duraderas.
+
+Seguiremos cultivando ambas cualidades en los próximos eventos, construyendo espacios donde tanto los que dan sus primeros pasos como quienes llevan años en el camino puedan encontrarse para crear juntos.
+
+Gracias a todos los que asistieron y nos hicieron parte de sus historias. Esperamos con ansias nuestro regreso a Guadalajara para el hackathon del 20 de septiembre. La aventura continúa, y la magia de crear en comunidad apenas comienza.
+
+[image1]: /content/giovani.jpeg
+[image2]: /content/Ileana-1.png
+[image3]: /content/Ileana-2.png

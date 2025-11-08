@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "profile": {
+    "name": "Your Name",
+    "avatar": "https://github.com/yourusername.png",
+    "contact": {
+      "github": "yourusername",
+      "linkedin": "https://linkedin.com/in/yourusername",
+      "email": "you@example.com",
+      "twitter": "@yourusername",
+      "website": "https://yourwebsite.com",
+      "other": []
+    }
+  },
+  "fileList": {
+    "url": "https://your-project.vercel.app/api/files.json",
+    "format": "json",
+    "lastUpdated": "2025-11-08T23:43:57.553Z"
+  }
+}

@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0c0c0c;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 2px solid #00ff00;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #00aa00;
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #00ff00;
+  color: #00aa00;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+  border-bottom: 1px dotted #00ff00;
+}
+
+a:hover {
+  color: #00ff00;
+  background: #003300;
+}
+
+.note-list {
+  list-style: none;
+}
+
+.note-item {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #004400;
+  background: #001100;
+}
+
+.note-item:hover {
+  border-color: #00ff00;
+}
+
+.note-title {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.note-date {
+  color: #00aa00;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.note-excerpt {
+  color: #00cc00;
+}
+
+.note-tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background: #003300;
+  color: #00ff00;
+  padding: 2px 8px;
+  margin-right: 5px;
+  font-size: 0.75rem;
+  border: 1px solid #004400;
+}
+
+.note-content {
+  margin-top: 20px;
+}
+
+.note-content h1 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.note-content h2 {
+  font-size: 1.4rem;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.note-content h3 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.note-content p {
+  margin-bottom: 15px;
+}
+
+.note-content ul,
+.note-content ol {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.note-content code {
+  background: #001100;
+  color: #00ff00;
+  padding: 2px 6px;
+  border: 1px solid #004400;
+}
+
+.note-content pre {
+  background: #001100;
+  color: #00ff00;
+  padding: 15px;
+  border: 1px solid #004400;
+  overflow-x: auto;
+  margin-bottom: 15px;
+}
+
+.note-content pre code {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #00aa00;
+}
+
+.back-link:hover {
+  color: #00ff00;
+}
+
+.note-image img {
+  border: 1px solid #004400;
+  max-width: 100%;
+  height: auto;
+}
+
+.note-tagline {
+  color: #00aa00;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.note-author {
+  color: #00aa00;
+  font-size: 0.9rem;
+}
+
+/* Support for HTML content in markdown */
+.note-content img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #004400;
+  margin: 10px 0;
+}
+
+.note-content .flex {
+  display: flex;
+}
+
+.note-content .flex-col {
+  flex-direction: column;
+}
+
+.note-content .flex-row {
+  flex-direction: row;
+}
+
+.note-content .gap-4 {
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .note-title {
+    font-size: 1.1rem;
+  }
+  
+  .note-content .md\:flex-row {
+    flex-direction: column;
+  }
+}
+
