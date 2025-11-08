@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Dev Notes',
@@ -16,8 +17,19 @@ export default function RootLayout({
       <body>
         <div className="container">
           <header>
-            <h1>{'>'} DEV.NOTES</h1>
-            <p className="subtitle">A decentralized development log</p>
+            <div className="header-content">
+              <div>
+                <h1>
+                  <Link href="/">{'>'} DEV.NOTES</Link>
+                </h1>
+                <p className="subtitle">A decentralized development log</p>
+              </div>
+              <nav className="header-nav">
+                <Link href="/">My Notes</Link>
+                <Link href="/feed">Federation</Link>
+                <Link href="/manage">Manage</Link>
+              </nav>
+            </div>
           </header>
           <main>{children}</main>
           <footer>
