@@ -49,7 +49,7 @@ VERCEL_URL automatically set during build. Build script uses it to generate corr
 After first deploy, update public/api/metadata.json with actual production URL:
 ```json
 "fileList": {
-  "url": "https://your-project.vercel.app/api/files.json"
+  "url": "https://viberacing11-08.vercel.app/api/files.json"
 }
 ```
 

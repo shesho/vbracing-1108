@@ -10,7 +10,7 @@
       "tagline": "Testing all extended frontmatter fields",
       "author": "Test Author",
       "image": "https://via.placeholder.com/800x400/0c0c0c/00ff00?text=Test+Image",
-      "url": "https://your-project.vercel.app/api/notes/006-extended-format-test.md",
+      "url": "https://viberacing11-08.vercel.app/api/notes/006-extended-format-test.md",
       "tags": [
         "test",
         "format",
@@ -23,7 +23,7 @@
       "slug": "005-deployment-strategy",
       "date": "2025-11-08T18:30:00Z",
       "excerpt": "Zero-config deployment to Vercel. GitHub integration for automatic deploys on push.",
-      "url": "https://your-project.vercel.app/api/notes/005-deployment-strategy.md",
+      "url": "https://viberacing11-08.vercel.app/api/notes/005-deployment-strategy.md",
       "tags": [
         "deployment",
         "vercel",
@@ -36,7 +36,7 @@
       "slug": "004-vintage-ui",
       "date": "2025-11-08T18:15:00Z",
       "excerpt": "Green-on-black terminal aesthetic. Inspired by 80s/90s development environments.",
-      "url": "https://your-project.vercel.app/api/notes/004-vintage-ui.md",
+      "url": "https://viberacing11-08.vercel.app/api/notes/004-vintage-ui.md",
       "tags": [
         "design",
         "ui",
@@ -49,7 +49,7 @@
       "slug": "003-build-script",
       "date": "2025-11-08T18:00:00Z",
       "excerpt": "Automated generation of files.json. Validates frontmatter, copies files, updates timestamps.",
-      "url": "https://your-project.vercel.app/api/notes/003-build-script.md",
+      "url": "https://viberacing11-08.vercel.app/api/notes/003-build-script.md",
       "tags": [
         "tooling",
         "automation",
@@ -62,7 +62,7 @@
       "slug": "002-api-design",
       "date": "2025-11-08T17:45:00Z",
       "excerpt": "Three-endpoint design for decentralized dev notes. Simple, static, CORS-enabled.",
-      "url": "https://your-project.vercel.app/api/notes/002-api-design.md",
+      "url": "https://viberacing11-08.vercel.app/api/notes/002-api-design.md",
       "tags": [
         "api",
         "architecture",
@@ -75,7 +75,7 @@
       "slug": "001-project-setup",
       "date": "2025-11-08T17:30:00Z",
       "excerpt": "Initial project scaffolding. Next.js 14 with static export. Three API endpoints defined.",
-      "url": "https://your-project.vercel.app/api/notes/001-project-setup.md",
+      "url": "https://viberacing11-08.vercel.app/api/notes/001-project-setup.md",
       "tags": [
         "setup",
         "meta",
